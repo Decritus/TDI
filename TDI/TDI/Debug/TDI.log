@@ -1,0 +1,34 @@
+﻿Compilación iniciada a las 05/06/2013 10:08:30.
+     1>Proyecto "C:\Users\Juanka\Desktop\Tratamiento imagenes\prácticasTDI\TDI\TDI.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Se creará "Debug\TDI.unsuccessfulbuild" porque se especificó "AlwaysCreate".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Users\Juanka\Desktop\Tratamiento imagenes\prácticasTDI\\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\source\TDI.cpp
+         TDI.cpp
+     1>c:\users\juanka\desktop\tratamiento imagenes\prácticastdi\source\tdi.cpp(25): warning C4244: '=' : conversión de 'C_Matrix::ElementT' a 'int'; posible pérdida de datos
+     1>c:\users\juanka\desktop\tratamiento imagenes\prácticastdi\source\tdi.cpp(101): warning C4244: 'inicializando' : conversión de 'C_Matrix::ElementT' a 'int'; posible pérdida de datos
+     1>c:\users\juanka\desktop\tratamiento imagenes\prácticastdi\source\tdi.cpp(122): warning C4244: '=' : conversión de 'C_Matrix::ElementT' a 'int'; posible pérdida de datos
+     1>c:\users\juanka\desktop\tratamiento imagenes\prácticastdi\source\tdi.cpp(123): warning C4244: '=' : conversión de 'C_Matrix::ElementT' a 'int'; posible pérdida de datos
+     1>c:\users\juanka\desktop\tratamiento imagenes\prácticastdi\source\tdi.cpp(124): warning C4244: '=' : conversión de 'C_Matrix::ElementT' a 'int'; posible pérdida de datos
+     1>c:\users\juanka\desktop\tratamiento imagenes\prácticastdi\source\tdi.cpp(125): warning C4244: '=' : conversión de 'C_Matrix::ElementT' a 'int'; posible pérdida de datos
+       ManifestResourceCompile:
+         Todas las salidas están actualizadas.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Juanka\Desktop\Tratamiento imagenes\prácticasTDI\Debug\TDI.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TDI.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Juanka\Desktop\Tratamiento imagenes\prácticasTDI\Debug\TDI.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Juanka\Desktop\Tratamiento imagenes\prácticasTDI\Debug\TDI.lib" /MACHINE:X86 Debug\TDI.exe.embed.manifest.res
+         Debug\TDI.obj
+         Debug\Test.obj
+         ..\lib\IMtdi_VS2010_Debug.lib
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\TDI.exe.embed.manifest" /manifest Debug\TDI.exe.intermediate.manifest
+         Todas las salidas están actualizadas.
+       LinkEmbedManifest:
+         Todas las salidas están actualizadas.
+         TDI.vcxproj -> C:\Users\Juanka\Desktop\Tratamiento imagenes\prácticasTDI\Debug\TDI.exe
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Debug\TDI.unsuccessfulbuild".
+         Aplicando tarea Touch a "Debug\TDI.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Users\Juanka\Desktop\Tratamiento imagenes\prácticasTDI\TDI\TDI.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:01.82
